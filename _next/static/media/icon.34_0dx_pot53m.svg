@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Favicon: full-bleed red→blue gradient filling the whole icon, with a
+     white "S". White appears only in the S; the fill reaches every edge so
+     there is no visible background/corner. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="s-grad" x1="4" y1="4" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E63946"/>
+      <stop offset="0.5" stop-color="#6C5CE7"/>
+      <stop offset="1" stop-color="#1D9BF0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Full-bleed gradient -->
+  <rect x="0" y="0" width="64" height="64" rx="6" fill="url(#s-grad)"/>
+  <!-- White S -->
+  <text x="32" y="34" font-family="Helvetica, Arial, sans-serif" font-weight="700"
+        font-size="44" fill="#ffffff" text-anchor="middle" dominant-baseline="central">S</text>
+</svg>
